@@ -4,7 +4,8 @@ const router = express.Router();
 const {
   authPartner,
   registerPartner, 
-  logoutPartner 
+  logoutPartner ,
+  getPartnerProfile
 } = require('../controllers/partnerController');
 const protect = require('../middleware/authMiddleware');
 
