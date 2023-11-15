@@ -12,6 +12,7 @@ const protect = require('../middleware/authMiddleware');
 router.post('/login', authPartner);
 router.post('/registerPartner', registerPartner);
 router.post('/logout', logoutPartner);
+router.get('/getPartnerProfile', getPartnerProfile);
 
 module.exports = router;
 
